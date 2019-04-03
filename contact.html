@@ -1,56 +1,56 @@
 <html>
-<head>
+ <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
-body {font-family: Arial, Helvetica, sans-serif;
+    body {font-family: Arial, Helvetica, sans-serif;
          background-color: #698c4a
-}
-.button {
- background-color: #afa74c;
- border: none;
- color: #111b16;
- padding: 10px 20px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 14px;
- margin: 4px 2px;
- cursor: pointer;
- }
-* {box-sizing: border-box;}
+        }
+      .button {
+            background-color: #afa74c;
+            border: none;
+            color: #111b16;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+       * {box-sizing: border-box;}
 
-input[type=text], select, textarea {
-  width: 50%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
+        input[type=text], select, textarea {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+          : vertical;
+          }
 
-input[type=submit] {
-  background-color: #ff00;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+      input[type=submit] {
+           background-color: #ff00;
+           color: white;
+           padding: 12px 20px;
+           border: none;
+           border-radius: 4px;
+           cursor: pointer;
+            }
 
-input[type=submit]:hover {
-  background-color: #698c4a;
-}
+       input[type=submit]:hover {
+             background-color: #698c4a;
+             }
 
-.container {
-  border-radius: 5px;
-  background-color: #848851;
-  padding: 20px;
-}
-</style>
-</head>
-<body>
+      .container {
+            border-radius: 5px;
+            background-color: #848851;
+            padding: 20px;
+            }
+  </style>
+ </head>
+ <body>
   <div id="nav">
      <a href="index.html"><button class="button">Home</button></a>
      <a href="Mystory.html"><button class="button">About Me</button></a>
@@ -59,28 +59,26 @@ input[type=submit]:hover {
      <a href="contact.html"><button class="button">Contact</button></a>
   </div>
 
-<form action="https://formspree.io/tgutu2010@gmail.com" method="POST" />
+  <form action="https://formspree.io/tgutu2010@gmail.com" method="POST" />
 
-<h3> Contact Me </h3>
+  <h3> Contact Me </h3>
 
-Full name:<br>
-<input type="text" id="name" name="fullname" placeholder="Your full name...">
-<br>
+  Full name:<br>
+  <input type="text" id="name" name="fullname" placeholder="Your full name...">
+  <br>
 
-Email:<br>
-<input type="text" id="Email" name="_replyto" placeholder="Your email adress...">
-<br>
+  Email:<br>
+  <input type="text" id="Email" name="_replyto" placeholder="Your email adress...">
+  <br>
+  Phone number:<br>
+  <input type="text" id="Phone" name="Phone" placeholder="Your phone number (optional)...">
 
+    <br><br>
 
-Phone number:<br>
-<input type="text" id="Phone" name="Phone" placeholder="Your phone number (optional)...">
+   <textarea id="subject" name="subject" placeholder="Write your message..."></textarea>
 
-<br><br>
+   <input type="submit" value="Send">
 
-<textarea id="subject" name="subject" placeholder="Write your message..."></textarea>
-
-<input type="submit" value="Send">
-
-</form>
-</body>
+  </form>
+ </body>
 </html>
